@@ -9,7 +9,7 @@ To read and write back out to video: \
 	--output output/output_Town_01.avi
   
 # Structure and results:
-To implement our people counter we’ll be using both OpenCV and dlib. We’ll use OpenCV for standard computer vision/image processing functions, along with the deep learning object detector for people counting. We’ll then use dlib for its implementation of correlation filters.
+To implement our people counter we used both OpenCV and dlib. We used OpenCV for standard computer vision/image processing functions, along with the deep learning object detector for people counting. We then used dlib for its implementation of correlation filters.
 
 About 276 persons were detected on the video. FPS is approximatelly equal to 30.
 
