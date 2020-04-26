@@ -8,6 +8,7 @@ To read and write back out to video: \
 	--model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/TownCentreXVID.avi \ \
 	--output output/output_Town_01.avi
   
+# Structure and results:
 To implement our people counter we’ll be using both OpenCV and dlib. We’ll use OpenCV for standard computer vision/image processing functions, along with the deep learning object detector for people counting. We’ll then use dlib for its implementation of correlation filters.
 
 About 276 persons were detected on the video. FPS is approximatelly equal to 30.
